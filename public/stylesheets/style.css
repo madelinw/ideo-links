@@ -1,0 +1,7 @@
+.wrapper {
+  margin: 20px auto 0;
+  width: 500px; }
+
+input[type="text"] {
+  padding: 10px;
+  width: 100%; }

@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  .container
+    .row
+      .link-section.col-md-6
+        h3 Budgeting
+        ul.budget-list
+        form#budget-form(action='/')
+          input#budgeting-input(type='text', placeholder='http://', name='budget')
+      .link-section.col-md-6
+        h3 Saving
+        ul.saving-list
+        form#saving-form(action='/')
+          input#saving-input(type='text', placeholder='http://', name='saving')
+    .row
+      .link-section.col-md-6
+        h3 Paying Bills
+        ul.bills-list
+        form#bills-form(action='/')
+          input#bills-input(type='text', placeholder='http://', name='bills')
+      .link-section.col-md-6
+        h3 Compound Interest
+        ul.interest-list
+        form#interest-form(action='/')
+          input#interest-input(type='text', placeholder='http://', name='interest')
