@@ -5,6 +5,11 @@ module.exports = function(grunt) {
         files: {
           'public/stylesheets/style.css': 'sass/style.sass'
         }
+      },
+      options: {
+        includePaths: [
+          './bower_components/bootstrap/dist/css'
+        ]
       }
     },
     watch: {
